@@ -11,7 +11,7 @@ Chart.register({
 		ctx.restore();
 	},
 });
-const canvas = createCanvas(1920, 1080);
+const canvas = createCanvas(1280, 720);
 const ctx = canvas.getContext("2d");
 new Chart(ctx, {
 	type: "bar",
